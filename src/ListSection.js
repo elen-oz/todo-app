@@ -31,7 +31,7 @@ function ListSection() {
           <div className='listSection_elements'>
             <ol className='listSection_ol'>
               {todos.map((todo) => (
-                <li className='element' key='element'>
+                <li className='element' key='todo.id'>
                   {todo}
                 </li>
               ))}

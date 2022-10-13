@@ -20,7 +20,10 @@
 .listSection_list {
   max-width: 400px;
   padding: 10px;
-  border: 1px solid #aaa;
+  
+  background-color: #FFE8DB;
+  border: 2px solid #FF5A00;
+  border-radius: 5px 30px 5px 30px;
 }
 
 .listSection_title {
@@ -29,7 +32,10 @@
 
 .listSection_elements {
   padding: 5px;
-  border: 1px solid #aaa;
+  
+  background-color: #EEDDFF;
+  border: 2px solid #7922CC;
+  border-radius: 25px;
 }
 
 .listSection_ol {
