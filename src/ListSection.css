@@ -1,0 +1,18 @@
+.listSection > h1 {
+  padding: 10px 0;
+}
+
+.listSection > form {
+  display: flex ;
+  padding-bottom: 10px;
+  width: 170%;
+  height: 30px;
+}
+
+.listSection > form > input {
+  width: 70%;
+}
+
+.listSection > form > button {
+  width: 30%;
+}
