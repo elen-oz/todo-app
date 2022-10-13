@@ -1,11 +1,11 @@
 .listSection > h1 {
-  padding: 10px 0;
+  padding-bottom: 10px;
 }
 
 .listSection > form {
   display: flex ;
-  padding-bottom: 10px;
-  width: 170%;
+  padding-bottom: 20px;
+  max-width: 500px;
   height: 30px;
 }
 
@@ -15,4 +15,24 @@
 
 .listSection > form > button {
   width: 30%;
+}
+
+.listSection_list {
+  max-width: 400px;
+  padding: 10px;
+  border: 1px solid #aaa;
+}
+
+.listSection_title {
+  margin-bottom: 10px;
+}
+
+.listSection_elements {
+  padding: 5px;
+  border: 1px solid #aaa;
+}
+
+.listSection_ol {
+  /* list-style-type: none; */
+  padding-left: 20px;
 }

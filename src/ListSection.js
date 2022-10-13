@@ -26,10 +26,20 @@ function ListSection() {
         </button>
       </form>
 
-      <h2>List of Todos</h2>
-      {todos.map((todo) => (
-        <p className='element' key='element'>{todo}</p>
-      ))}
+      <div className='listSection_list'>
+        <h2 className='listSection_title'>List of Todos</h2>
+
+        <div className='listSection_elements'>
+          <ol className='listSection_ol'>
+            {todos.map((todo) => (
+              <li className='element' key='element'>
+                {todo}
+              </li>
+            ))}
+          </ol>
+        </div>
+        
+      </div>
     </div>
   );
 }
